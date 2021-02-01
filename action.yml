@@ -1,0 +1,11 @@
+name: 'setup-jq'
+description: 'Install yq parser'
+author: 'mobilcom-debitel'
+inputs:
+  version: 
+    required: true
+    description: 'Version of yq'
+    default: '4.4.1'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
