@@ -1,4 +1,4 @@
-name: 'setup-jq'
+name: 'setup-yq'
 description: 'Install yq parser'
 author: 'mobilcom-debitel'
 inputs:
